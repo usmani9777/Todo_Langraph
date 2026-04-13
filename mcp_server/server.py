@@ -114,6 +114,7 @@ def delete_todo_item(item: str) -> str:
     return f"Deleted: {item}"
 
 if __name__ == "__main__":
+    print("this mcp server")
     # Change to "stdio" if running locally via a bridge, 
     # or keep "sse" if running as a standalone web server.
     mcp.run(transport="sse")
